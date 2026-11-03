@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AgriCycle is an educational crop rotation project for sustainable agriculture and healthier soil.">
+  <title>AgriCycle | Sustainable Crop Rotation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav-wrap">
+      <a class="logo" href="#home"><span class="logo-icon">A</span><span>Agri<span class="logo-accent">Cycle</span><small>SMART CROP ROTATION</small></span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <nav class="nav" id="nav">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#crops">Crop Library</a>
+        <a class="nav-link" href="#planner">Planner</a>
+        <a class="nav-link" href="#benefits">Benefits</a>
+        <a class="nav-contact" href="#contact">Contact <span>↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <div class="kicker kicker-light"><span></span> INTELLIGENT FARMING • SUSTAINABLE FUTURE</div>
+          <h1>Plan smarter.<br><span>Grow better.</span></h1>
+          <p class="hero-description">A practical introduction to crop rotation — helping students and growers understand how planned crop sequences can support soil health and sustainable agriculture.</p>
+          <div class="hero-buttons">
+            <a class="btn btn-green" href="#planner">Explore crop planner <b>→</b></a>
+            <a class="btn btn-outline" href="#about">Learn about the project</a>
+          </div>
+          <div class="hero-footnote"><span class="pulse"></span> BUILDING A HEALTHIER RELATIONSHIP WITH THE LAND</div>
+        </div>
+        <div class="hero-side-note"><span>01</span><i></i><span>AGRICULTURE, REIMAGINED</span></div>
+      </div>
+    </section>
+
+    <section class="stats-strip">
+      <div class="container stats-grid">
+        <div><strong>01</strong><span>Understand crop cycles</span></div>
+        <div><strong>02</strong><span>Explore crop families</span></div>
+        <div><strong>03</strong><span>Plan seasonal sequences</span></div>
+        <div><strong>04</strong><span>Learn sustainable practices</span></div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-image-wrap">
+          <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1100&q=85" alt="Aerial view of green agricultural fields">
+          <div class="image-caption"><span>AGRICYCLE PRINCIPLE</span><strong>Healthy land is the foundation of every harvest.</strong></div>
+        </div>
+        <div class="about-content">
+          <div class="kicker"><span></span> ABOUT THE PROJECT</div>
+          <h2>A thoughtful approach to <em>growing.</em></h2>
+          <p class="section-lead">AgriCycle is a student project that explains the role of crop rotation in building more sustainable farming systems.</p>
+          <p>Crop rotation is the practice of growing different crops in sequence on the same field over different seasons or years. Instead of repeatedly planting the same crop, a farmer plans a suitable sequence based on crop families, soil conditions, climate and available water.</p>
+          <div class="about-points">
+            <div><span>✓</span> Learn the fundamentals of crop rotation</div>
+            <div><span>✓</span> Compare common crop groups</div>
+            <div><span>✓</span> Explore sample seasonal plans</div>
+          </div>
+          <a class="inline-link" href="#crops">Explore crop library <b>↗</b></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section library-section" id="crops">
+      <div class="container">
+        <div class="section-top">
+          <div><div class="kicker"><span></span> CROP LIBRARY</div><h2>Explore the <em>crop families.</em></h2></div>
+          <p>Every crop has different growing needs and characteristics. Learn about common crops that may be included in a locally suitable rotation.</p>
+        </div>
+        <div class="crop-grid">
+          <article class="crop-card"><div class="crop-photo"><img src="https://images.unsplash.com/photo-1536630596251-b8a7c7e7a2e5?auto=format&fit=crop&w=800&q=80" alt="Rice plants in a field" loading="lazy"><span>01 / CEREAL</span></div><div class="crop-body"><h3>Rice</h3><p>A widely grown cereal crop. Its place in a rotation depends on water availability, soil and local season.</p><div class="crop-label">GRAIN CROP <span>↗</span></div></div></article>
+          <article class="crop-card"><div class="crop-photo"><img src="https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?auto=format&fit=crop&w=800&q=80" alt="Golden wheat field" loading="lazy"><span>02 / CEREAL</span></div><div class="crop-body"><h3>Wheat</h3><p>A major grain crop grown in suitable cooler seasons and often used in cereal-based rotations.</p><div class="crop-label">GRAIN CROP <span>↗</span></div></div></article>
+          <article class="crop-card"><div class="crop-photo"><img src="https://images.unsplash.com/photo-1595841696677-6489ff3f8cd1?auto=format&fit=crop&w=800&q=80" alt="Pulse crop plants" loading="lazy"><span>03 / LEGUME</span></div><div class="crop-body"><h3>Pulses</h3><p>Green gram, chickpea and other legumes can fix atmospheric nitrogen with the help of root bacteria.</p><div class="crop-label">LEGUME GROUP <span>↗</span></div></div></article>
+          <article class="crop-card"><div class="crop-photo"><img src="https://images.unsplash.com/photo-1601593768799-76c3d4c3e6f4?auto=format&fit=crop&w=800&q=80" alt="Maize crop growing" loading="lazy"><span>04 / CEREAL</span></div><div class="crop-body"><h3>Maize</h3><p>A versatile cereal used for food and feed, with crop duration and water needs varying by variety.</p><div class="crop-label">GRAIN CROP <span>↗</span></div></div></article>
+          <article class="crop-card"><div class="crop-photo"><img src="https://images.unsplash.com/photo-1508747703725-719777637510?auto=format&fit=crop&w=800&q=80" alt="Groundnut plants" loading="lazy"><span>05 / OILSEED</span></div><div class="crop-body"><h3>Groundnut</h3><p>An oilseed legume that can be used in rotations where soil and seasonal conditions are appropriate.</p><div class="crop-label">OILSEED LEGUME <span>↗</span></div></div></article>
+          <article class="crop-card"><div class="crop-photo"><img src="https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=800&q=80" alt="Vegetable crops in a farm" loading="lazy"><span>06 / VEGETABLE</span></div><div class="crop-body"><h3>Vegetables</h3><p>Vegetable crops add diversity. Choose crop types and planting periods according to local conditions.</p><div class="crop-label">DIVERSE CROPS <span>↗</span></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="planner-section section" id="planner">
+      <div class="container planner-grid">
+        <div class="planner-intro">
+          <div class="kicker kicker-light"><span></span> INTERACTIVE LEARNING TOOL</div>
+          <h2>Build a sample<br><em>rotation plan.</em></h2>
+          <p>Select a starting crop to explore an example sequence across four seasons. Use it as a learning aid, not as a site-specific farming prescription.</p>
+          <div class="planner-callout"><span>i</span><p><strong>Planning matters.</strong> Real crop choices should account for local soil tests, rainfall, irrigation, climate, crop duration, pest history and agricultural guidance.</p></div>
+        </div>
+        <div class="planner-panel">
+          <div class="panel-heading"><div><span class="panel-eyebrow">AGRICYCLE TOOLKIT / 01</span><h3>Crop rotation planner</h3></div><span class="panel-icon">↗</span></div>
+          <label for="cropSelect">Select your starting crop</label>
+          <select id="cropSelect">
+            <option value="rice">Rice</option><option value="maize">Maize</option><option value="wheat">Wheat</option><option value="groundnut">Groundnut</option><option value="pulses">Pulses (green gram)</option>
+          </select>
+          <button class="btn btn-solid" id="makePlan">Generate sample plan <span>→</span></button>
+          <div class="plan-output" aria-live="polite">
+            <div class="output-heading"><span>YOUR FOUR-SEASON SEQUENCE</span><span class="status"><i></i> SAMPLE</span></div>
+            <div class="season-list" id="seasonList">
+              <div class="season"><span>SEASON 01</span><strong>🌾 Rice</strong></div>
+              <div class="season"><span>SEASON 02</span><strong>🫘 Pulses</strong></div>
+              <div class="season"><span>SEASON 03</span><strong>🌽 Maize</strong></div>
+              <div class="season"><span>SEASON 04</span><strong>🥜 Groundnut</strong></div>
+            </div>
+            <p class="plan-note" id="planNote">Illustrative sequence only. Confirm local suitability before planting.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section benefits-section" id="benefits">
+      <div class="container">
+        <div class="section-top">
+          <div><div class="kicker"><span></span> WHY CROP ROTATION?</div><h2>Benefits that go <em>beyond harvest.</em></h2></div>
+          <p>When designed for local conditions, crop rotation can support soil function, crop diversity and integrated farm management.</p>
+        </div>
+        <div class="benefit-grid">
+          <article class="benefit"><span class="benefit-number">01</span><div class="benefit-symbol">◈</div><h3>Soil health</h3><p>Different root systems and crop residues can contribute to soil structure and organic matter management.</p></article>
+          <article class="benefit"><span class="benefit-number">02</span><div class="benefit-symbol">＋</div><h3>Nutrient cycling</h3><p>Legumes can add biologically fixed nitrogen to the farming system when properly managed.</p></article>
+          <article class="benefit"><span class="benefit-number">03</span><div class="benefit-symbol">⌁</div><h3>Pest management</h3><p>Changing crop families can disrupt some pest and disease cycles that depend on particular host crops.</p></article>
+          <article class="benefit"><span class="benefit-number">04</span><div class="benefit-symbol">❋</div><h3>Crop diversity</h3><p>Growing a wider range of crops can support diversity within the farm ecosystem.</p></article>
+          <article class="benefit"><span class="benefit-number">05</span><div class="benefit-symbol">◌</div><h3>Resource planning</h3><p>Seasonal crop choices can be matched with available water, labour and other farm resources.</p></article>
+          <article class="benefit"><span class="benefit-number">06</span><div class="benefit-symbol">↗</div><h3>Long-term resilience</h3><p>Well-planned rotations can contribute to a more adaptable and sustainable farming system.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="statement">
+      <div class="container statement-inner"><span class="statement-mark">“</span><p>Good farming begins with understanding the land — and planning for the seasons ahead.</p><span class="statement-caption">THE AGRICYCLE APPROACH</span></div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy"><div class="kicker"><span></span> CONTACT & FEEDBACK</div><h2>Let's make<br><em>ideas grow.</em></h2><p>Have a question or suggestion about the AgriCycle project? Use the form to try the contact interface or get in touch with your project team.</p><div class="contact-project"><span>AC</span><div><strong>AgriCycle CSP Project</strong><small>Smart Crop Rotation for a Healthy Tomorrow</small></div></div></div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-title"><h3>Send a message</h3><span>WE'D LOVE YOUR FEEDBACK</span></div>
+          <label for="fullName">Full name</label><input type="text" id="fullName" placeholder="Your name" required>
+          <label for="emailAddress">Email address</label><input type="email" id="emailAddress" placeholder="name@example.com" required>
+          <label for="userMessage">Message</label><textarea id="userMessage" rows="4" placeholder="Type your message here..." required></textarea>
+          <button class="btn btn-green form-submit" type="submit">Submit message <b>→</b></button>
+          <p class="form-feedback" id="formFeedback" aria-live="polite">Demo form only — it does not send or store messages.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-top"><a class="logo footer-logo" href="#home"><span class="logo-icon">A</span><span>Agri<span class="logo-accent">Cycle</span><small>SMART CROP ROTATION</small></span></a><p>Growing knowledge for a more sustainable tomorrow.</p><a href="#home" class="to-top">Back to top ↑</a></div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> AgriCycle · College CSP Project</span><span>Learn • Plan • Rotate • Sustain</span></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
